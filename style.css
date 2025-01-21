@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display:flex block;
+    gap:0.1em;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 5%;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.IconName
+{
+    height:1.5em;
+    width:6em;
+    background-color: orange;
+    color:black;
+    border-radius: 0.1em;
+
+}
+.search_bar
+{
+    display:flex;
+    align-items: center;
+    
+}
+input {
+    width: 36em;
+    height:1.2em;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search_btn {
+    padding: 10px 20px;
+    height:1.2em;
+    background:black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search_btn:hover {
+    background: grey;
+}
+
+#movie-details {
+    width:100vw;
+    padding-left: 5%;
+    margin-top: 20px;
+    text-align: left;
+    background-color:black;
+    color: #fff;
+}
+
+img {
+    width:20%;
+    height:20%;
+    margin-bottom: 10px;
+}
+.data
+{
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+}
+.descr
+{
+    flex: 1;
+    
+}
